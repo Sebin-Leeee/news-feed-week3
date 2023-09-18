@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@200;400;500&family=Righteous&family=Roboto:wght@300;400;500&family=Sofia+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.page-title {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 20px;
+  padding: 25px 25px;
+  background-color: white;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: left;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  border-radius: 10px;
+}
+
+.img-container {
+  width: 230px;
+  height: 130px;
+}
+.img-container img {
+  width: 230px;
+  height: 130px;
+  object-fit: cover;
+}
+
+.card-top {
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  align-items: center;
+}
+
+.title {
+  text-decoration: none;
+  color: black;
+}
+
+.card span.delete {
+  background: red;
+  color: #fff;
+  cursor: pointer;
+  height: 1.2rem;
+  line-height: 1;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 1.2rem;
+  border-radius: 5px;
+}
+
+.close {
+  display: none;
+}
+
+.read-more {
+  text-decoration: none;
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  .card-top {
+    flex-direction: column;
+  }
+  .card {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
