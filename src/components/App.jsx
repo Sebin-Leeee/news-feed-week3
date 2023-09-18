@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import stories from "../../sample_news_stories.json";
+import stories from "../sample_news_stories.json";
 
 function createCard(story) {
   return (
